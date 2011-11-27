@@ -26,7 +26,7 @@ public class PlusplusActivity extends Activity {
         
         mDbHelper = new PDbAdapter(this);
         mDbHelper.open();
-        dumpDay();
+        //dumpDay();
         //filldata();
     }
     
